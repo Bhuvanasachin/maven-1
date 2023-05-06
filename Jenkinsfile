@@ -1,5 +1,6 @@
 pipeline {
-    agent any
+    agent {
+        lable java_node
     stages {
         stage('Checkout') {
             steps {
